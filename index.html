@@ -1,29 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Special For You ❤️</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Special Memory ❤️</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="card">
-        <img src="images/photo.jpg" alt="Our Memory">
+    <div class="container">
 
-        <h1>For You ❤️</h1>
+        <div class="card">
 
-        <p>
-            Every moment with you is special.
-        </p>
+            <h1>Our Special Memories ❤️</h1>
 
-        <button onclick="playSong()">🎵 Play Our Song</button>
+            <p class="message">
+                A little collection of beautiful memories ✨
+            </p>
 
-        <audio id="song">
-            <source src="song.mp3" type="audio/mpeg">
-        </audio>
+
+            <!-- VIDEO -->
+
+            <h2>🎬 Our Special Video</h2>
+
+            <video controls class="video">
+
+                <source src="video.mp4"
+                        type="video/mp4">
+
+                Your browser does not support video.
+
+            </video>
+
+
+            <!-- PHOTOS -->
+
+            <h2>📸 Our Memories</h2>
+
+            <div class="gallery">
+
+                <img src="photo1.jpg"
+                     alt="Memory 1">
+
+                <img src="photo2.jpg"
+                     alt="Memory 2">
+
+                <img src="photo3.jpg"
+                     alt="Memory 3">
+
+                <img src="photo4.jpg"
+                     alt="Memory 4">
+
+            </div>
+
+
+            <!-- SONG -->
+
+            <h2>🎵 Our Song</h2>
+
+            <button onclick="playSong()">
+                ▶ Play Song
+            </button>
+
+            <audio id="song">
+
+                <source src="song.mp3"
+                        type="audio/mpeg">
+
+            </audio>
+
+
+            <p class="footer">
+                Made with ❤️
+            </p>
+
+        </div>
+
     </div>
+
 
     <script src="script.js"></script>
 
 </body>
-</html>
+
+                    </html>
